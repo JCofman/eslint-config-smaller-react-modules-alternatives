@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-smaller-react-modules-alternatives",
+  "version": "1.0.0",
+  "description": "this eslint config adds rules to show alternatives for some larger packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Cofman",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
