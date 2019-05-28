@@ -3,6 +3,12 @@ workflow "Build, Test, and Publish" {
   resolves = ["Publish"]
 }
 
+# Filter for a new tag
+action "Tag" {
+  uses = "actions/bin/filter@master"
+  args = "tag"
+}
+
 action "Publish" {
   needs = "Tag"
   uses = "actions/npm@master"
